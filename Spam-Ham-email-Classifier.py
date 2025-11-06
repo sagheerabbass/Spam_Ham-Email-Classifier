@@ -30,9 +30,9 @@ print('Accuracy:',accuracy_score(y_test,y_pred))
 print('\n📊 Classification Report :\n',classification_report(y_test,y_pred))
 print('\n🧩 Confusion Matrix :\n',confusion_matrix(y_test,y_pred))
 
-# Problem Understanding 
-# Data Collection
-# Data Preprocessing :
+# i)Problem Understanding 
+# ii)Data Collection
+# iii)Data Preprocessing :
 # Load dataset using pandas.
 
 # Drop unnecessary columns (the extra ones in spam.csv).
@@ -42,3 +42,6 @@ print('\n🧩 Confusion Matrix :\n',confusion_matrix(y_test,y_pred))
 # Encode labels → spam = 1, ham = 0.
 
 # Split dataset → training and testing sets.
+# iv) Text Preprocessing: convert text data into numerical format using TF-IDF vectorization.
+# v) Model Selection and Training: choose SVM classifier and train it on the training data.
+# vi) Model Evaluation: evaluate the model using accuracy, classification report, and confusion matrix.
